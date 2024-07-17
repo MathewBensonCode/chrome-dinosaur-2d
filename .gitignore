@@ -1,3 +1,6 @@
+# Compile Commands
+compile_commands.json
+
 # User-specific files
 *.rsuser
 *.suo

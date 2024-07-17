@@ -1,5 +1,9 @@
 #pragma once
 
+#include <SDL_pixels.h>  // for SDL_Color
+#include <SDL_rect.h>    // for SDL_Rect
+#include <SDL_render.h>  // for SDL_Texture
+#include <stddef.h>      // for size_t
 #include <string>
 
 #include "SDL_ttf.h"

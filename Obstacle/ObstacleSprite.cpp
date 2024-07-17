@@ -1,4 +1,10 @@
 #include "Sprites.h"
+#include <SDL_rect.h>            // for SDL_Rect
+#include <SDL_timer.h>           // for SDL_GetTicks
+#include <cstdlib>               // for rand
+#include "Collision.h"           // for Collider
+#include "TransformComponent.h"  // for TransformComponent
+#include "Vector2D.h"            // for Vector2D
 #include "Game.h"
 
 void DyingTree1::init() {

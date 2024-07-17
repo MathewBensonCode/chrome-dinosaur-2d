@@ -5,7 +5,6 @@
 
 #include "Game.h"
 #include "Sprites.h"
-#include "KeyboardController.h"
 #include "DinoStates.h"
 
 Dino::~Dino() {
